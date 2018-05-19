@@ -8,5 +8,4 @@ def display_board
   puts "#{rows}"
   puts separator
   puts "#{rows}""
-  puts separator
 end
