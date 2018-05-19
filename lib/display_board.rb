@@ -3,6 +3,6 @@ def display_board
   puts "Welcome to Tic Tac Toe"
   line_one = [" ", "|", " ", "|", " "]
   separator = ["-----------"]
-  puts line_one
+  puts "#{line_one}""
   puts separator
 end
