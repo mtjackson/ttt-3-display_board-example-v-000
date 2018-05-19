@@ -4,9 +4,9 @@ def display_board
   rows = [" ", " ", " "]
   separator = ["-----------"]
 
-  puts rows.join("  |  ")
+  puts " " + rows.join(" | ") + " "
   puts separator
-  puts rows.join("  |  ")
+  puts " " + rows.join(" | ") + " "
   puts separator
-  puts rows.join("  |  ")
+  puts " " + rows.join(" | ") + " "
 end
