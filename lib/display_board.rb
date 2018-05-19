@@ -5,4 +5,8 @@ def display_board
   separator = ["-----------"]
   puts "#{rows}""
   puts separator
+  puts "#{rows}""
+  puts separator
+  puts "#{rows}""
+  puts separator
 end
