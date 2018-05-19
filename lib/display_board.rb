@@ -2,7 +2,7 @@
 def display_board
   puts "Welcome to Tic Tac Toe"
   line_one = [" ", "|", " ", "|", " "]
-  seperator = ["-----------"]
+  separator = ["-----------"]
   puts line_one
   puts separator
 end
