@@ -3,9 +3,10 @@ def display_board
   puts "Welcome to Tic Tac Toe"
   rows = [" ", "|", " ", "|", " "]
   separator = ["-----------"]
-  puts "#{rows}""
+
+  puts rows.join
   puts separator
-  puts "#{rows}"
+  puts rows.join
   puts separator
-  puts "#{rows}""
+  puts rows.join
 end
