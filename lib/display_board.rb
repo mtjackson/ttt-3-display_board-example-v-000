@@ -6,7 +6,7 @@ def display_board
 
   puts rows.join("  ")
   puts separator
-  puts rows.join
+  puts rows.join("  ")
   puts separator
-  puts rows.join
+  puts rows.join("  ")
 end
