@@ -1,12 +1,12 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board
   puts "Welcome to Tic Tac Toe"
-  rows = [" ", "|", " ", "|", " "]
+  rows = [" ", " ", " "]
   separator = ["-----------"]
 
-  puts rows.join("  ")
+  puts rows.join("  |  ")
   puts separator
-  puts rows.join("  ")
+  puts rows.join("  |  ")
   puts separator
-  puts rows.join("  ")
+  puts rows.join("  |  ")
 end
